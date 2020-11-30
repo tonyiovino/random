@@ -4,7 +4,7 @@ N = input("N: ")
 N = int(N)
 
 if N > 1:
-    N = random.randrange(1, N)
+    N = random.randint(1, N)
     print("Numero: ", N)
 
 else:
