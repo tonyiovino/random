@@ -1,11 +1,11 @@
 import random
 
-N = input("N: ")
-N = int(N)
+print("Lancia un dado a N facce")
 
-if N > 1:
-    N = random.randint(1, N)
-    print("Numero: ", N)
+N = 0
+while N < 1:
+    N = input("N: ")
+    N = int(N)
 
-else:
-    print("ERRORE: riprovare a inserire un numero > 1")
+N = random.randint(1, N)
+print(f"È uscito il numero: {N}")
