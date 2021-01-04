@@ -31,15 +31,14 @@ int main(){
         printf("%4d", num);
     }
 
-    min = 3, max = 12;
+    min = 1, max = 6;
     printf("\nGruppo d:");
     for (i = 0; i < 5; i++){
-        num = (min + rand() % (max - min)) * 2;
+        num = min + 2 * 1 + (1 + rand() % (max - min)) * 2;
         printf("%4d", num);
     }
 
     putchar('\n');
-
 
     return 0;
 }
